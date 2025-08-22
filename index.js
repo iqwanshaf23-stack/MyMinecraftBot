@@ -38,8 +38,8 @@ app.listen(port, () => {
 
 const botOptions = {
     // -- Server Details --
-    host: 'geo.hivemc.com', // <-- CHANGE THIS to your server's IP address
-    port: 19132,            // <-- CHANGE THIS to your server's port
+    host: 'BelarsS1.aternos.me', // <-- CHANGE THIS to your server's IP address
+    port: 57402,            // <-- CHANGE THIS to your server's port
 
     // -- Bot Authentication --
     username: process.env.EMAIL,    // Gets email from Render's environment variables
