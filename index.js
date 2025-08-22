@@ -1,4 +1,3 @@
-
 ```javascript:index.js
 // =================================================================================================
 // 1. SETUP - WEB SERVER FOR RENDER
@@ -14,6 +13,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // This creates a simple webpage to confirm the server is running.
+// **THE FIX IS HERE**: Notice the backticks (`) around the HTML.
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'text/html');
   res.send(`
